@@ -1,12 +1,12 @@
-# IOT-fingerprint-voting-system
+# IOT-Radio Frequency Meter
 
-All you need to build an advanced IOT voting machine using Arduino hardware modules and Blynk IOT Cloud. Leverages IoT, Blynk Cloud, SD Card and has a secure administrator interface.
+Build a demo IoT rf meter using Arduino hardware modules and Blynk IOT Cloud. Reads temperature, humidity and RF signal data from sensors. Leverages IoT, Blynk Cloud, and serial monitor.
 Code is well commented for easier editing.
 
 Here are the list of modules used in this project:
 
-* Arduino Mega2560 or any Atmel compatible microcontroller.
-* AS608 fingerprint module for fingerprint procedures.
-* LCD 2004 (20x4 LCD) to display multiple data
+* Arduino Uno (ATMega328P) or any Atmel compatible microcontroller.
+* DHT11 humidity and temperature sensor.
+* LM35 temperature sensor for a wide range of temperature.
 * SIM800L for GPRS connection and IoT.
-* 4 x 4 Keypad module for user input.
+* LCD 1602 (16 x 2 LCD) for user data display.
